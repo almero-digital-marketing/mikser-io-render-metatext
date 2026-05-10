@@ -1,5 +1,5 @@
 {
-  "name": "mikser-core-render-metatext",
+  "name": "mikser-io-render-metatext",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/almero-digital-marketing/mikser-core-render-metatext.git"
+    "url": "git+https://github.com/almero-digital-marketing/mikser-io-render-metatext.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/almero-digital-marketing/mikser-core-render-metatext/issues"
+    "url": "https://github.com/almero-digital-marketing/mikser-io-render-metatext/issues"
   },
-  "homepage": "https://github.com/almero-digital-marketing/mikser-core-render-metatext#readme"
+  "homepage": "https://github.com/almero-digital-marketing/mikser-io-render-metatext#readme",
+  "peerDependencies": {
+    "mikser-io": "^6.0.0"
+  }
 }
