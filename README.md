@@ -2,6 +2,8 @@
 
 Metatext helpers for [Mikser](https://github.com/almero-digital-marketing/mikser-io). Adds two functions to the render runtime — `metatext` and `removeMetatext` — for converting a compact bracket-based markup into HTML (or stripping it out).
 
+Use this for short-form rich text where full Markdown is overkill — ad copy, social captions, taglines, button labels, anything where the author wants `(bold)` and `[italic]` without the cognitive load of `**` and `_` rules. Available in every template engine via the render runtime.
+
 ## Install
 
 ```bash
