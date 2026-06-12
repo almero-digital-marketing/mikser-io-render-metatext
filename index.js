@@ -40,3 +40,8 @@ export function load({ runtime }) {
         .replaceAll('~',' ')
     }
 }
+
+// v9 factory — load-only renderer (adds runtime.metatext helper). ADR-0010.
+export function renderMetatext(options = {}) {
+    return { name: options.name ?? 'metatext', options, load }
+}
