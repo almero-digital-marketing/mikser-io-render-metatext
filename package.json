@@ -1,6 +1,6 @@
 {
   "name": "mikser-io-render-metatext",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/almero-digital-marketing/mikser-io-render-metatext#readme",
   "peerDependencies": {
-    "mikser-io": "^8.0.0"
+    "mikser-io": "^9.0.0"
   }
 }
