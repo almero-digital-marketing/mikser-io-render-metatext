@@ -14,8 +14,10 @@ npm install mikser-io-render-metatext
 
 ```js
 // mikser.config.js
+import { renderMetatext } from 'mikser-io-render-metatext'
+
 export default {
-  plugins: ['render-metatext']
+  plugins: [renderMetatext()]
 }
 ```
 
