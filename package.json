@@ -1,10 +1,12 @@
 {
   "name": "mikser-io-render-metatext",
   "version": "5.0.0",
-  "description": "Metatext helpers for Mikser. Adds two functions to the render runtime \u2014 `metatext` and `removeMetatext` \u2014 for converting a compact bracket-based markup into HTML (or stripping it out).",
+  "description": "Metatext helpers for Mikser. Adds two functions to the render runtime — `metatext` and `removeMetatext` — for converting a compact bracket-based markup into HTML (or stripping it out).",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "test": "node --no-warnings --test --test-reporter=spec 'test/**/*.test.js'"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/almero-digital-marketing/mikser-io-render-metatext.git"
