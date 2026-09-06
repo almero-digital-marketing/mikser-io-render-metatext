@@ -43,5 +43,5 @@ export function load({ runtime }) {
 
 // v9 factory — load-only renderer (adds runtime.metatext helper). ADR-0010.
 export function renderMetatext(options = {}) {
-    return { name: options.name ?? 'metatext', options, load }
+    return { name: options.name ?? 'metatext', options, load, module: import.meta.url }
 }
